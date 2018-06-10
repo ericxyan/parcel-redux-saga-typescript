@@ -9,3 +9,4 @@ A boilerplate of react, redux, redux-ducks and redux-saga using Typescript and P
 - json-server + concurrently
 - Typescript + TSLint + Prettier(tslint-config-prettier)
 - Parcel bundler
+
