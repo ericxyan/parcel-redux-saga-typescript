@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel src/index.html",
+    "dev": "yarn clean && parcel src/index.html -p 3000 --no-cache",
     "clean": "rimraf dist"
   },
   "dependencies": {
+    "antd": "3.6.2",
     "react": "16.4.0",
     "react-dom": "16.4.0",
     "react-redux": "5.0.7"
@@ -14,8 +15,12 @@
   "devDependencies": {
     "@types/react": "16.3.17",
     "@types/react-dom": "16.0.6",
+    "babel-plugin-import": "1.7.0",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-react": "6.24.1",
+    "less": "2.7.3",
     "parcel-bundler": "1.8.1",
     "rimraf": "2.6.2",
-    "typescript": "^2.9.1"
+    "typescript": "2.9.1"
   }
 }
