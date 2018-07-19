@@ -10,3 +10,4 @@ A boilerplate of react, redux, redux-ducks and redux-saga using Typescript and P
 - [ ] Typescript + TSLint + Prettier(tslint-config-prettier)
 - [x] Parcel bundler
 
+test
